@@ -17,6 +17,6 @@
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/Rennalke/ktulu",
   "manifest": "https://raw.githubusercontent.com/Rennalke/ktulu/master/ktulu/system.json",
-  "download": "https://github.com/Rennalke/ktulu/blob/master/ktulu-master(1).zip",
+  "download": "https://github.com/Rennalke/ktulu/blob/master/ktulu-master(1).zip?raw=true",
   "license": "LICENSE.txt"
 }
