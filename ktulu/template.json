@@ -53,11 +53,44 @@
       "min": 0,
       "max":99
     },
-    "attributes": {
- 
-    },
+    
     "skills": {
-      
+      "accounting": {
+        "value": 5,
+        "label": "Accounting"
+      },
+      "anthropology":{
+        "value": 1,
+        "label": "Anthropology"
+      },
+      "appraise": {
+        "value": 5,
+        "label": "Appraise"
+      },
+      "archeology":{
+        "value": 1,
+        "label": "Archeology"
+      },
+      "art/craft":{
+        "value": 5,
+        "label": "Art/craft"
+      },
+      "charm":{
+        "value": 15,
+        "label": "Charm"
+      },
+      "climb":{
+        "value": 20,
+        "label":"Climb"
+      },
+      "credit rating":{
+        "value": 0,
+        "label": "Credit Rating"
+      },
+      "cthulhu mythos":{
+        "value":0,
+        "label":"Cthulhu Mythos"
+      }
     }
   }
 },
