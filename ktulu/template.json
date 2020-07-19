@@ -3,95 +3,16 @@
   "types": ["character"],
   "character": {
     "biography": "",
-    "STR": {
-      "value": 99,
+      "health": {
+      "value": 10,
       "min": 0,
-      "max": 99
+      "max": 10
     },
-    "DEX": {
-      "value": 99,
+    "power": {
+      "value": 5,
       "min": 0,
-      "max": 99
+      "max": 5
     },
-    "CON": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "SIZE": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "APP": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "EDU": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "INT": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "POW": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "LUCK": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    "SAN": {
-      "value": 99,
-      "min": 0,
-      "max":99
-    },
-    
-    "skills": {
-      "accounting": {
-        "value": 5,
-        "label": "Accounting"
-      },
-      "anthropology":{
-        "value": 1,
-        "label": "Anthropology"
-      },
-      "appraise": {
-        "value": 5,
-        "label": "Appraise"
-      },
-      "archeology":{
-        "value": 1,
-        "label": "Archeology"
-      },
-      "art/craft":{
-        "value": 5,
-        "label": "Art/craft"
-      },
-      "charm":{
-        "value": 15,
-        "label": "Charm"
-      },
-      "climb":{
-        "value": 20,
-        "label":"Climb"
-      },
-      "credit rating":{
-        "value": 0,
-        "label": "Credit Rating"
-      },
-      "cthulhu mythos":{
-        "value":0,
-        "label":"Cthulhu Mythos"
-      }
-    }
   }
 },
 "Item": {
