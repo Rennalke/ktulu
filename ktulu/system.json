@@ -16,7 +16,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/Rennalke/ktulu",
-  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
+  "manifest": "https://raw.githubusercontent.com/Rennalke/ktulu/master/ktulu/system.json",
   "download": "",
   "license": "LICENSE.txt"
 }
