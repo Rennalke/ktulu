@@ -16,7 +16,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/Rennalke/ktulu",
-  "manifest": "https://raw.githubusercontent.com/Rennalke/ktulu/master/ktulu/system.json",
+  "manifest": "https://githubusercontent.com/Rennalke/ktulu/master/ktulu/system.json",
   "download": "https://github.com/Rennalke/ktulu/tree/master/ktulu",
   "license": "LICENSE.txt"
 }
