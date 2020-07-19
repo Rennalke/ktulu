@@ -8,6 +8,51 @@
       "min": 0,
       "max": 99
     },
+    "DEX": {
+      "value": 99,
+      "min": 0,
+      "max": 99
+    },
+    "CON": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "SIZE": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "APP": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "EDU": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "INT": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "POW": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "LUCK": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "SAN": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
     "attributes": {
  
     },
