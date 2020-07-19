@@ -1,0 +1,67 @@
+{
+"Actor": {
+  "types": ["character"],
+  "character": {
+    "biography": "",
+    "STR": {
+      "value": 99,
+      "min": 0,
+      "max": 99
+    },
+    "DEX": {
+      "value": 99,
+      "min": 0,
+      "max": 99
+    },
+    "CON": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "SIZE": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "APP": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "EDU": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "INT": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "POW": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+    "LUCK": {
+      "value": 99,
+      "min": 0,
+      "max":99
+    },
+
+    "attributes": {},
+    "skills": {
+
+    }
+  }
+},
+"Item": {
+  "types": ["item"],
+  "item": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "attributes": {}
+  }
+}
+}
