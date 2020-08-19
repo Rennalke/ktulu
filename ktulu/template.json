@@ -4,229 +4,59 @@
   "character": {
     "biography": "",
     "attributes":{
-      "str": {
+      
+      "str":{
         "value": 0,
         "label": "STR"
-        },
-        "dex": {
-         "value": 99,
-          "label": "DEX"
-          },
-        "con": {
-          "value": 0,
-          "label": "CON"
-         },
-        "size": {
-         "value": 0,
-         "label": "SIZE"
-         },
-         "app": {
-           "value": 0,
-           "label": "APP"
-         },
-         "edu": {
-           "value": 0,
-           "label": "EDU"
-         },
-         "int": {
-           "value": 0,
-           "label": "INT"
-         },
-         "pow": {
-           "value": 0,
-           "label": "POW"
-         },
-         "luck": {
-           "value": 0,
-           "label": "LUCK"
-         },
-         "san": {
-           "value": 0,
-           "label": "SAN"
-         }
-    },
-    
-    "skills": {
-      "accounting": {
-        "value": 5,
-        "label": "Accounting"
       },
-      "anthropology":{
-        "value": 1,
-        "label": "Anthropology"
-      },
-      "appraise": {
-        "value": 5,
-        "label": "Appraise"
-      },
-      "archeology":{
-        "value": 1,
-        "label": "Archeology"
-      },
-      "artcraft":{
-        "value": 5,
-        "label": "Art/craft"
-      },
-      "charm":{
-        "value": 15,
-        "label": "Charm"
-      },
-      "climb":{
-        "value": 20,
-        "label":"Climb"
-      },
-      "creditrating":{
+
+      "dex":{
         "value": 0,
-        "label": "Credit Rating"
+        "label": "DEX"
       },
-      "cthulhu mythos":{
-        "value":0,
-        "label":"Cthulhu Mythos"
+
+      "con":{
+        "value": 0,
+        "label": "CON"
       },
-      "disguise":{
-        "value":5,
-        "label":"Disguise"
+
+      "size":{
+        "value": 0,
+        "label": "SIZE"
       },
-      "driveauto":{
-        "value":20,
-        "label":"Drive Auto"
+
+      "app":{
+        "value": 0,
+        "label": "APP"
       },
-      "elecrepair":{
-        "value":10,
-        "label":"Elec repair"
+
+      "edu":{
+        "value": 0,
+        "label": "EDU"
       },
-      "fasttalk":{
-        "value":5,
-        "label":"Fast talk"
+
+      "int":{
+        "value": 0,
+        "label": "INT"
       },
-      "brawl":{
-        "value":25,
-        "label":"Fighting(Brawl)"
+      
+      "pow":{
+        "value": 0,
+        "label": "POW"
       },
-      "handgun":{
-        "value":20,
-        "label":"Firearms(Handgun)"
+      
+      "luck":{
+        "value": 0,
+        "label": "LUCK"
       },
-      "rifle":{
-        "value":25,
-        "label":"Firearms(Rifle/Shotgun)"
-      },
-      "firstaid":{
-        "value":30,
-        "label":"First Aid"
-      },
-      "history":{
-        "value":5,
-        "label":"History"
-      },
-      "intimidate":{
-        "value":15,
-        "label":"Intimidate"
-      },
-      "jump":{
-        "value":20,
-        "label":"Jump"
-      },
-      "languageother":{
-        "value":1,
-        "label":"Language(Other)"
-      },
-      "languageown":{
-        "value":0,
-        "label":"Language(Own)"
-      },
-      "law":{
-        "value":5,
-        "label":"Law"
-      },
-      "libraryuse":{
-        "value":20,
-        "label":"Library Use"
-      },
-      "listen":{
-        "value":20,
-        "label":"Listen"
-      },
-      "locksmith":{
-        "value":1,
-        "label":"Locksmith"
-      },
-      "mechrepair":{
-        "value":10,
-        "label":"Mech. Repair"
-      },
-      "medicine":{
-        "value":1,
-        "label":"Medicine"
-      },
-      "natworld":{
-        "value":10,
-        "label":"Natural World"
-      },
-      "navigate":{
-        "value":10,
-        "label":"Navigate"
-      },
-      "occult":{
-        "value":5,
-        "label":"Occult"
-      },
-      "ophvmachine":{
-        "value":1,
-        "label":"Op.Hv.Machine"
-      },
-      "persuade":{
-        "value":10,
-        "label":"Persuade"
-      },
-      "pilot":{
-        "value":1,
-        "label":"Pilot"
-      },
-      "psychology":{
-        "value":10,
-        "label":"Psychology"
-      },
-      "psychoanalysis":{
-        "value":1,
-        "label":"Psychoanalysis"
-      },
-      "ride":{
-        "value":5,
-        "label":"Ride"
-      },
-     "science":{
-       "value":1,
-       "label":"Science"
-      },
-     "sleightofhand":{
-        "value":10,
-        "label":"Sleight of Hand"
-      },
-     "spothidden":{
-       "value":25,
-       "label":"Spot Hidden"
-      },
-     "stealth":{
-       "value":20,
-        "label":"Stealth"
-      },
-    "survival":{
-       "value":10,
-        "label":"Survival"
-      },
-    "swim":{
-        "value":20,
-       "label":"Swim"
-     },
-    "throw":{
-       "value":20,
-        "label":"Throw"
-      },
-    "track":{
-      "value":10,
-      "label":"Track"
+
+      "san":{
+        "value": 0,
+        "label": "SAN"
+      }
+
     }
+
   }
 },
 "Item": {
@@ -239,3 +69,5 @@
   }
 }
 }
+}
+
