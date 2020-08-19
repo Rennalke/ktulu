@@ -4,55 +4,45 @@
   "character": {
     "biography": "",
     "attributes":{
-      "STR": {
-        "value": 99,
-        "min": 0,
-         "max": 99
+      "str": {
+        "value": 0,
+        "label": "STR"
         },
-        "DEX": {
+        "dex": {
          "value": 99,
-          "min": 0,
-           "max": 99
+          "label": "DEX"
           },
-        "CON": {
-          "value": 99,
-           "min": 0,
-           "max":99
+        "con": {
+          "value": 0,
+          "label": "CON"
          },
-        "SIZE": {
-         "value": 99,
-          "min": 0,
-           "max":99
+        "size": {
+         "value": 0,
+         "label": "SIZE"
          },
-         "APP": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "app": {
+           "value": 0,
+           "label": "APP"
          },
-         "EDU": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "edu": {
+           "value": 0,
+           "label": "EDU"
          },
-         "INT": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "int": {
+           "value": 0,
+           "label": "INT"
          },
-         "POW": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "pow": {
+           "value": 0,
+           "label": "POW"
          },
-         "LUCK": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "luck": {
+           "value": 0,
+           "label": "LUCK"
          },
-         "SAN": {
-           "value": 99,
-           "min": 0,
-           "max":99
+         "san": {
+           "value": 0,
+           "label": "SAN"
          }
     },
     
