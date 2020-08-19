@@ -5,16 +5,6 @@
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
         <div class="header-fields">
             <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
-            <div class="resource">
-                <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number"/>
-                <span> / </span>
-                <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
-            </div>
-            <div class="resource">
-                <input type="text" name="data.power.value" value="{{data.power.value}}" data-dtype="Number"/>
-                <span> / </span>
-                <input type="text" name="data.power.max" value="{{data.power.max}}" data-dtype="Number"/>
-            </div>
         </div>
     </header>
 
@@ -32,8 +22,6 @@
         <div class="tab biography" data-group="primary" data-tab="description">
             {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}
         </div>
-
-        
 
         {{!-- Owned Items Tab --}}
         <div class="tab items" data-group="primary" data-tab="items">
@@ -53,14 +41,70 @@
 
         {{!-- Attributes Tab --}}
         <div class="tab attributes" data-group="primary" data-tab="attributes">
-            <header class="attributes-header flexrow">
-                <span class="attribute-key">Attribute Key</span>
-                <span class="attribute-value">Value</span>
-                <span class="attribute-label">Label</span>
-                <span class="attribute-dtype">Data Type</span>
-                <a class="attribute-control" data-action="create"><i class="fas fa-plus"></i></a>
-            </header>
+            <br>
+            <div><center><h3><b>Atrybuty</b></h3></center></div>
+            <br>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>STR</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>DEX</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>CON</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>SIZE</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>APP</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>EDU</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>INT</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>POW</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>LUCK</b></label></center>
+            </div>
+            <div class="cthulhu-resource">
+                <center><label class="attribute-label"> <b>SAN</b></label></center>
+            </div>
 
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.str.value" value="{{data.attributes.str.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.dex.value" value="{{data.attributes.dex.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.con.value" value="{{data.attributes.con.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.size.value" value="{{data.attributes.size.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.app.value" value="{{data.attributes.app.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.edu.value" value="{{data.attributes.edu.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.int.value" value="{{data.attributes.int.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.pow.value" value="{{data.attributes.pow.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.luck.value" value="{{data.attributes.luck.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
+            <div class="cthulhu-resource">
+                <input type="text" name="data.attributes.san.value" value="{{data.attributes.san.value}}"   data-dtype="Number" placeholder="0" style="height:40px; width: 40px;"/>
+            </div>
         </div>
     </section>
 </form>
